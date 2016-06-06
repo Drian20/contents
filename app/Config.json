@@ -1,0 +1,14 @@
+{
+	"dbconf":{
+		"driver":"mysql",
+		"dbname":"contents_contentoos",
+		"dbhost":"92.222.38.97",
+		"dbuser":"contents_admin",
+		"dbpass":"123456"
+	},
+	"app":{
+		"title":"Contents",
+		"version":"0.1"
+	}
+
+}

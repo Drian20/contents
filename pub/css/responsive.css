@@ -1,0 +1,135 @@
+/*Vertical MAX(Iphone6)*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.container1{
+	min-height:70vh;
+	}
+	.container1 #l_nene{
+	height:50vh;
+	width:40%;
+	}
+	.container1 #l_padre{
+	height:50vh;
+	width:40%;
+	}
+	.container3 #ac {
+	width: 100%; 
+    border-right: 0;
+    min-height: 0vh;
+	}
+	.container3 #au {
+	width: 100%; 
+	}
+	.container3
+	{
+		flex-direction: column;
+	}
+	#cabecera{
+		height:6vh;
+	}
+}
+
+/*Horizontal MAX(Iphone6)*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	.container1{
+	min-height:70vh;
+	}
+	.container1 #l_nene{
+	height:50vh;
+	width:30%;
+	}
+	.container1 #l_padre{
+	height:50vh;
+	width:30%;
+	}
+	.container3 #ac {
+	width: 100%; 
+    border-right: 0;
+    min-height: 0vh;
+	}
+	.container3 #au {
+	width: 100%; 
+	}
+	.container3
+	{
+		flex-direction: column;
+	}
+	#user
+	{
+		margin-top: 1vh;
+	    margin-bottom: 1vh;
+	    font-size: 16px;
+	    font-weight: bold;
+	}
+	#cabecera{
+		height:15vh;
+	}
+}
+
+/*Vertical Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
+	.container1{
+	min-height:70vh;
+	}
+	.container1 #l_nene{
+	height:50vh;
+	width:30%;
+	}
+	.container1 #l_padre{
+	height:50vh;
+	width:30%;
+	}
+	.container3 #ac {
+	width: 100%; 
+    border-right: 0;
+    min-height: 0vh;
+	}
+	.container3 #au {
+	width: 100%; 
+	}
+	.container3
+	{
+		flex-direction: column;
+	}
+		footer
+	{
+		height:20vh;
+	}
+	#cabecera{
+		height:10vh;
+	}
+}
+
+/*Horizontal Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+	.container1{
+	min-height:90vh;
+	}
+	.container1 #l_nene{
+	height:60vh;
+	width:30%;
+	}
+	.container1 #l_padre{
+	height:60vh;
+	width:30%;
+	}
+	.container3 #ac {
+	width: 100%; 
+    border-right: 0;
+    min-height: 0vh;
+	}
+	.container3 #au {
+	width: 100%; 
+	}
+	.container3
+	{
+		flex-direction: column;
+	}
+	#user
+	{
+	margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    font-size: 16px;
+    font-weight: bold;
+	}
+}
+
